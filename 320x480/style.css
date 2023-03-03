@@ -1,0 +1,123 @@
+body,
+body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #242322;
+}
+
+.container {
+  position: absolute;
+  width: 320px;
+  height: 480px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*top: 300px;*/
+  /*left: 600px;*/
+  background-color: #fff;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  border: 1px #242322 solid;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+#logo {
+  width: 240px;
+  left: 45px;
+  top: 15px;
+}
+
+#txt01 {
+  width: 224px;
+  left: 46px;
+  top: 95px;
+  opacity: 90%;
+}
+
+#txt02 {
+  width: 219px;
+  left: 50px;
+  top: 137px;
+  opacity: 90%;
+}
+
+#dish {
+  width: 273px;
+  left: 25px;
+  top: 197px;
+}
+
+#shadow {
+  width: 320px;
+  left: 0px;
+  top: 156px;
+}
+
+@keyframes ornam-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#ornament {
+  width: 316px;
+  left: 2px;
+  top: 173px;
+}
+
+#ornament > div {
+  animation: ornam-anim 30s linear;
+}
+
+#orn_img {
+  width: 316px;
+  height: 316px;
+}
+
+#flowers_left {
+  width: 100px;
+  left: 0px;
+  top: 147px;
+}
+
+#flowers_right {
+  width: 75px;
+  left: 245px;
+  top: 151px;
+}
+
+#schirm {
+  position: absolute;
+  width: 320px;
+  height: 480px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  opacity: 0;
+}
